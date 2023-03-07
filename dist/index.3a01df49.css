@@ -1,5 +1,4 @@
 .card {
-  border: 2px solid #e4e4e4;
   transition: all .2s ease-in;
   box-shadow: 0 1px 4px #00000029;
 }
@@ -18,6 +17,10 @@
   transform: translateY(-2.5px);
 }
 
+.package-1 .card {
+  border: 2px solid var(--pricing-1-300);
+}
+
 .package-1 .card:hover {
   border: 2px solid var(--pricing-1-900);
 }
@@ -28,15 +31,25 @@
 }
 
 .package-1 .card__heading-promo {
-  background-color: var(--pricing-1-900);
-  color: #fff;
+  background-color: var(--pricing-1-500);
+  color: var(--pricing-1-900);
 }
 
 .package-1 .card__prices {
   background-color: var(--pricing-1-100);
 }
 
-.package-1 .card__price-discount {
+.package-1 .card__price-icon, .package-1 .card__price-discount {
+  color: var(--pricing-1-900);
+}
+
+.package-1 .card__discount-description {
+  background-color: var(--pricing-1-300);
+}
+
+.package-1 .card__discount-save {
+  background-color: var(--pricing-1-500);
+  border: 1px solid var(--pricing-1-700);
   color: var(--pricing-1-900);
 }
 
@@ -46,6 +59,10 @@
 
 .package-1 .card__price-cta:hover {
   background-color: var(--pricing-1-700);
+}
+
+.package-2 .card {
+  border: 2px solid var(--pricing-2-300);
 }
 
 .package-2 .card:hover {
@@ -58,15 +75,25 @@
 }
 
 .package-2 .card__heading-promo {
-  background-color: var(--pricing-2-900);
-  color: #fff;
+  background-color: var(--pricing-2-500);
+  color: var(--pricing-2-900);
 }
 
 .package-2 .card__prices {
   background-color: var(--pricing-2-100);
 }
 
-.package-2 .card__price-discount {
+.package-2 .card__price-icon, .package-2 .card__price-discount {
+  color: var(--pricing-2-900);
+}
+
+.package-2 .card__discount-description {
+  background-color: var(--pricing-2-300);
+}
+
+.package-2 .card__discount-save {
+  background-color: var(--pricing-2-500);
+  border: 1px solid var(--pricing-2-700);
   color: var(--pricing-2-900);
 }
 
@@ -78,12 +105,17 @@
   background-color: var(--pricing-2-700);
 }
 
+.package-3 .card {
+  border: 2px solid var(--pricing-3-300);
+}
+
 .package-3 .card:hover {
   border: 2px solid var(--pricing-3-900);
 }
 
 .package-3 .card__promo {
-  background-color: var(--pricing-3-700);
+  background-color: var(--pricing-3-500);
+  color: var(--pricing-3-900);
 }
 
 .package-3 .card__heading {
@@ -92,15 +124,21 @@
 }
 
 .package-3 .card__heading-promo {
-  background-color: var(--pricing-3-900);
-  color: #fff;
+  background-color: var(--pricing-3-500);
+  color: var(--pricing-3-900);
 }
 
-.package-3 .card__prices {
-  background-color: var(--pricing-3-100);
+.package-3 .card__price-icon, .package-3 .card__price-discount {
+  color: var(--pricing-3-900);
 }
 
-.package-3 .card__price-discount {
+.package-3 .card__discount-description {
+  background-color: var(--pricing-3-300);
+}
+
+.package-3 .card__discount-save {
+  background-color: var(--pricing-3-500);
+  border: 1px solid var(--pricing-3-700);
   color: var(--pricing-3-900);
 }
 
@@ -110,6 +148,10 @@
 
 .package-3 .card__price-cta:hover {
   background-color: var(--pricing-3-700);
+}
+
+.package-4 .card {
+  border: 2px solid var(--pricing-4-300);
 }
 
 .package-4 .card:hover {
@@ -122,15 +164,25 @@
 }
 
 .package-4 .card__heading-promo {
-  background-color: var(--pricing-4-900);
-  color: #fff;
+  background-color: var(--pricing-4-500);
+  color: var(--pricing-4-900);
 }
 
 .package-4 .card__prices {
   background-color: var(--pricing-4-100);
 }
 
-.package-4 .card__price-discount {
+.package-4 .card__price-icon, .package-4 .card__price-discount {
+  color: var(--pricing-4-900);
+}
+
+.package-4 .card__discount-description {
+  background-color: var(--pricing-4-300);
+}
+
+.package-4 .card__discount-save {
+  background-color: var(--pricing-4-500);
+  border: 1px solid var(--pricing-4-700);
   color: var(--pricing-4-900);
 }
 
