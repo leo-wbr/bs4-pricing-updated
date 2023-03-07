@@ -142,6 +142,10 @@
   color: var(--pricing-3-900);
 }
 
+.package-3 .card__prices {
+  background-color: var(--pricing-3-100);
+}
+
 .package-3 .card__price-icon {
   color: var(--pricing-3-900);
 }
